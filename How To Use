@@ -1,0 +1,17 @@
+How To Use:
+
+1. Put all the Exam Papers Files in on folder. Accepted files: [Text File(*.txt) -  Ms Word Files (*.doc , *.docx)].
+2. Remove any irrelavent pages/data from the files as much as possible (e.g. remove the introduction page which contains the name of subject, examiners and/or instructions..etc).
+3. Run the application and browse to your folder.
+4. Choose the appropriate flexibility.
+5. Hit start button and wait untill it finishes parsing.
+6. When the program finishes, a dialog will popup to save the result in a *.txt file.
+
+
+Regarding the Flexibility:
+The rule of thumb is: 
+	- More Flexibility means more sensitivity to similarity but less specificity : More dumb data in the result but low variable chance not to miss any duplicate [at 100% flexibility will be no miss of duplicate questions but full of dumb data].
+	- Less Flexibility means less sensitivity to similarity but more specificity : No dumb data in the result but a variable chance to miss a duplicate [at 1% flexibility will miss almost all duplicate questions but no dumb data].
+
+It is up tp the user to choose the best flexibility because the appropriate value differes between the exam papers.
+However, the recommended flexibility to "try" is: 25 - 50 - 75.
