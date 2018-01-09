@@ -8,4 +8,4 @@ Enjoy!
 
 All Rights Reserved 2017.
 
-![Alt Text](https://github.com/John-Almardeny/Exam-Papers-Comparison/blob/master/exam_papers_comparison.gif?raw=true)
+![Gif](https://github.com/John-Almardeny/Exam-Papers-Comparison/blob/master/papersComparison.gif?raw=true)
