@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ExamPapersComparison">
+   <children>
+      <Pane prefHeight="321.0" prefWidth="456.0">
+         <children>
+            <Label layoutX="87.0" layoutY="39.0" text="Past Exam Papers Comparison" textAlignment="CENTER" textFill="#26157c">
+               <font>
+                  <Font name="Book Antiqua Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="122.0" layoutY="118.0" text="Papers Source Folder" textAlignment="CENTER" textFill="#bd2f9e">
+               <font>
+                  <Font name="Bodoni MT" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="browse" layoutX="287.0" layoutY="116.0" mnemonicParsing="false" text="Browse" />
+            <Button fx:id="start" layoutX="202.0" layoutY="232.0" mnemonicParsing="false" text="Start" textFill="#074f06">
+               <font>
+                  <Font name="Aharoni Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="158.0" layoutY="166.0" text="Flexibility" textAlignment="CENTER" textFill="#bf2f2f">
+               <font>
+                  <Font name="Bodoni MT" size="15.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="flexibility" layoutX="286.0" layoutY="164.0" prefHeight="25.0" prefWidth="57.0" />
+            <Label layoutX="120.0" layoutY="306.0" text="By Developer:  Yahya Almardeny" textAlignment="CENTER">
+               <font>
+                  <Font name="Courier New" size="12.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.9476190476190476" endY="1.0" startX="0.9476190476190476" startY="0.6333333333333333">
+                     <stops>
+                        <Stop color="#148fa3" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</StackPane>
